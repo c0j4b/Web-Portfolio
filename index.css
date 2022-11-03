@@ -1,9 +1,9 @@
-﻿/*!* CSS Reset *!*/
-/** {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    box-sizing: border-box;*/
-/*}*/
+﻿/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Audiowide", sans-serif;
@@ -13,10 +13,25 @@ body{
     background-color: #571845;
 }
 
-#about {
+.about-me {
     background-color: #c7003b;
 }
 
 footer{
     background-color: #571845;
+}
+
+#footer1{
+    background-color: #c7003b;
+}
+
+.colored-h2{
+    color: #571845;
+}
+
+.anchor {
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+    visibility: hidden;
 }
