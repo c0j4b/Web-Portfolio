@@ -1,0 +1,22 @@
+﻿/*!* CSS Reset *!*/
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+body{
+    font-family: "Audiowide", sans-serif;
+}
+
+.navbar {
+    background-color: #571845;
+}
+
+#about {
+    background-color: #c7003b;
+}
+
+footer{
+    background-color: #571845;
+}
